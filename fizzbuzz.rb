@@ -6,7 +6,10 @@ def fizzbuzz(x)
     "Fizz"
   elsif x % 5 == 0
     "Buzz"
-  else
+  elsif (x % 3) + (x % 5)  == 0
     "FizzBuzz"
+  elsif 
+  else
+    "Not applicable"
   end
 end
