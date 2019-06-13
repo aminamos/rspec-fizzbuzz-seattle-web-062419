@@ -8,7 +8,8 @@ def fizzbuzz(x)
     "Buzz"
   elsif (x % 3) + (x % 5)  == 0
     "FizzBuzz"
-  elsif 
+  elsif ((x % 3 == 0) || (x % 5 == 0)) == !true
+    nil
   else
     "Not applicable"
   end
