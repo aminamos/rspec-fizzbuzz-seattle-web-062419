@@ -13,3 +13,4 @@ def fizzbuzz(x)
   else
     "Not applicable"
   end
+end
